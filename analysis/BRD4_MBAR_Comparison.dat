@@ -1,0 +1,28 @@
+Sat Sep 14 16:21:18 2024
+Plot the comparison between abfe and experimental results.
+../benchmark/BRD4/exp/exp.csv
+These abfe result files are visualized:
+../benchmark/BRD4/run1/dG_results.csv
+../benchmark/BRD4/run2/dG_results.csv
+../benchmark/BRD4/run3/dG_results.csv
+The MBAR results are visualized.
+The mean of these <stdev> values is 0.58
+The mean of these <spread> values is 1.10
+      run1   run2   run3  average  stdev  spread   exp  difference
+R78 -14.84 -14.71 -13.34   -14.30   0.83    1.50 -9.80       -4.50
+JQ1 -15.34 -15.29 -13.98   -14.87   0.77    1.36 -9.60       -5.27
+1H2 -12.09 -11.65 -12.64   -12.13   0.50    0.99 -8.80       -3.33
+08K -14.42 -13.06 -13.75   -13.74   0.68    1.36 -8.20       -5.54
+1K0  -9.34 -11.14  -9.94   -10.14   0.92    1.80 -9.00       -1.14
+1K1  -9.72 -10.60  -9.72   -10.01   0.51    0.88 -7.80       -2.21
+08H -13.24 -12.52 -13.59   -13.12   0.55    1.07 -7.40       -5.72
+2TA -10.62 -11.54 -11.04   -11.07   0.46    0.92 -8.90       -2.17
+15E  -7.25  -7.65  -6.86    -7.25   0.40    0.79 -6.30       -0.95
+ODR  -8.48  -8.54  -8.84    -8.62   0.19    0.36 -7.30       -1.32
+     r2_pearson: 0.51 +- 0.25
+      r_pearson: 0.71 +- 0.26
+   rho_spearman: 0.71 +- 0.28
+    tau_kendall: 0.51 +- 0.28
+           rmse: 3.69 +- 0.56
+            mse: -3.21 +- 0.59
+            mue: 3.21 +- 0.59
