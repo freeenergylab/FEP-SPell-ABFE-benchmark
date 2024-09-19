@@ -1,0 +1,20 @@
+Thu Sep 19 11:02:08 2024
+Plot the comparison between abfe and experimental results.
+../benchmark/L99A/exp/exp.csv
+These abfe result files are visualized:
+../benchmark/L99A/run1/dG_results_sysmetry.csv
+../benchmark/L99A/run2/dG_results_sysmetry.csv
+../benchmark/L99A/run3/dG_results_sysmetry.csv
+The MBAR results are visualized.
+The mean of these <stdev> values is 0.73
+The mean of these <spread> values is 1.44
+     run1  run2  run3  average  stdev  spread   exp  exp_dG_std  difference
+phn  1.37  0.58 -0.95     0.33   1.18    2.32 -0.88        0.13        1.21
+bnz -4.49 -4.80 -4.24    -4.51   0.28    0.56 -5.19        0.16        0.68
+     r2_pearson: 1.00 +- nan
+      r_pearson: 1.00 +- nan
+   rho_spearman: 1.00 +- nan
+    tau_kendall: 1.00 +- nan
+           rmse: 0.98 +- 0.19
+            mse: 0.95 +- 0.19
+            mue: 0.95 +- 0.19
