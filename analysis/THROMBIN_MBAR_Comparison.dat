@@ -1,0 +1,29 @@
+Thu Sep 19 22:14:51 2024
+Plot the comparison between abfe and experimental results.
+../benchmark/THROMBIN/exp/exp.csv
+These abfe result files are visualized:
+../benchmark/THROMBIN/run1/dG_results.csv
+../benchmark/THROMBIN/run2/dG_results.csv
+../benchmark/THROMBIN/run3/dG_results.csv
+The MBAR results are visualized.
+The mean of these <stdev> values is 2.59
+The mean of these <spread> values is 4.83
+     run1   run2   run3  average  stdev  spread   exp  difference
+1a  -8.58 -11.36  -7.92    -9.29   1.83    3.44 -7.48       -1.81
+1b -14.06 -13.44  -7.63   -11.71   3.55    6.43 -8.46       -3.25
+1c  -6.50  -6.13 -13.79    -8.81   4.32    7.66 -8.56       -0.25
+1d -14.07  -7.39  -6.88    -9.45   4.01    7.19 -8.25       -1.20
+3a -11.35  -8.08 -12.71   -10.71   2.38    4.63 -8.32       -2.39
+3b  -9.83 -11.91 -11.54   -11.09   1.11    2.08 -7.86       -3.23
+5  -11.63  -5.40  -9.21    -8.75   3.14    6.23 -7.58       -1.17
+6a -13.60 -12.57  -7.95   -11.37   3.01    5.65 -9.18       -2.19
+6b -11.85  -7.95 -12.92   -10.91   2.62    4.97 -8.89       -2.02
+6e -14.38 -11.71 -10.61   -12.23   1.94    3.77 -8.91       -3.32
+7a -11.73 -12.64 -11.59   -11.99   0.57    1.05 -8.22       -3.77
+     r2_pearson: 0.28 +- 0.21
+      r_pearson: 0.53 +- 0.22
+   rho_spearman: 0.46 +- 0.29
+    tau_kendall: 0.35 +- 0.23
+           rmse: 2.47 +- 0.28
+            mse: -2.24 +- 0.32
+            mue: 2.24 +- 0.32
