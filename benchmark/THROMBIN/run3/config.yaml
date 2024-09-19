@@ -44,7 +44,7 @@
         "hmass": 3.024,                                   # hydrogen mass, in amu
     },
     "equilibration": {
-        "dry_run": True,                                  # False: submit; True: only slurm bash script
+        "dry_run": False,                                 # False: submit; True: only slurm bash script
         "timestep": 0.002,                                # in ps; 0.004 ps if HMR
         "solvated_length": 5.,                            # simulation time for ligand in water, in ns
         "complex_length": 5.,                             # simulation time for ligand in binding pocket, in ns
@@ -56,7 +56,7 @@
         "hmass": 3.024,                                   # hydrogen mass, in amu
     },
     "alchemy_md": {
-        "dry_run": True,                                  # False: submit; True: only slurm bash script
+        "dry_run": False,                                 # False: submit; True: only slurm bash script
         "timestep": 0.002,                                # in ps; 0.004 ps if HMR
         "remd": False,                                    # True: turn on; False: turn off, replica-exchange method for FEP production simulation
         "remd_numexchg": 1000,                            # 1000 attempts for remd
